@@ -1,0 +1,37 @@
+@import url('https://fonts.googleapis.com/css2?family=Gloria+Hallelujah&family=Noto+Sans&display=swap');
+
+/* カラー設定*/
+:root {
+  --main-color: #b31667;
+  --accent-color: #25abbe;
+  --base-color: #777777;
+  --bg-gray: #F5F5F5;
+  --bg-pink-1: var(--main-color);
+  --bg-pink-2: #B35B8B;
+  --bg-pink-3: #B2889E;
+  --border-gray: var(--base-color);
+  --accent-font: Gloria Hallelujah;
+  --base-font: Noto Sans;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  font-family: var(--base-font);
+  color: var(--base-color);
+  font-weight: 400;
+  font-size: 1.6rem;
+}
+
+.w-container {
+  margin: 0 auto;
+  width: 100%;
+}
