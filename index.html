@@ -13,118 +13,179 @@
 <body>
   <header class="header">
     <div class="logo-box">
-      <img src="./img/estra_logo.png" alt="" class="logo">
+      <a href="#">
+        <img src="./img/estra_logo.png" alt="" class="logo">
+      </a>
     </div>
-    <nav>
-      <ul>
-        <li><a href="#">News</a></li>
-        <li><a href="#">About</a></li>
-        <li><a href="#">Service</a></li>
-        <li><a href="#">Blog</a></li>
-        <li><a href="#">Company</a></li>
-        <li><a href="#">Contact</a></li>
+
+    <nav class="nav">
+      <ul class="list-group">
+        <li class="list-item"><a href="#">News</a></li>
+        <li class="list-item"><a href="#">About</a></li>
+        <li class="list-item"><a href="#">Service</a></li>
+        <li class="list-item"><a href="#">Blog</a></li>
+        <li class="list-item"><a href="#">Company</a></li>
+        <li class="list-item"><a href="#">Contact</a></li>
       </ul>
     </nav>
   </header>
 
   <main>
-    <section class="hero">
-      <div class="w-container">
-        <h1>
-          Commit to the growth <br>
+    <section class="hero mb-5">
+      <div class="hero-img">
+        <img src="./img/firstview.jpg" alt="">
+      </div>
+      <div class="hero-container">
+        <h1 class="hero-copy-en">
+          Commit to the <span class="accent-text">growth</span> <br>
           for everyone
         </h1>
-        <h2>全ての人の成長に<span>コミット</span></h2>
-        <p>
+        <h2 class="hero-copy-ja">全ての人の<span class="accent-text">成長に</span>コミット</h2>
+        <p class="hero-desc">
           Educational Technology Company <br>
           estra since 2019
         </p>
-        <div class="hero-img-box">
-          <img src="./img/firstview.jpg" alt="">
-        </div>
       </div>
     </section>
 
-    <section class="news">
-      <div class="w-container">
-        <p>News</p>
-        <h2>新着情報</h2>
-        <dl>
-          <dt>2021/01/01</dt>
-          <dd>ニュース</dd>
-          <dd>COATCHTECHがサービスを開始しました。</dd>
-          <dt>2021/01/01</dt>
-          <dd>ニュース</dd>
-          <dd>COATCHTECHがサービスを開始しました。</dd>
-          <dt>2021/01/01</dt>
-          <dd>ニュース</dd>
-          <dd>COATCHTECHがサービスを開始しました。</dd>
-          <dt>2021/01/01</dt>
-          <dd>ニュース</dd>
-          <dd>COATCHTECHがサービスを開始しました。</dd>
-          <dt>2021/01/01</dt>
-          <dd>ニュース</dd>
-          <dd>COATCHTECHがサービスを開始しました。</dd>
-        </dl>
+    <section class="news pt-5 pb-5">
+      <div class="news-container">
+        <p class="title-en mb-1">News</p>
+        <h2 class="title">新着情報</h2>
+        <div class="divider mt-4"></div>
+        <table class="news-table">
+          <tr>
+            <td>2021/01/01</td>
+            <td><span class="cat-badge">ニュース</span></td>
+            <td>COATCHTECHがサービスを開始しました。</td>
+          </tr>
+          <tr>
+            <td>2021/01/01</td>
+            <td><span class="cat-badge">ニュース</span></td>
+            <td>COATCHTECHがサービスを開始しました。</td>
+          </tr>
+          <tr>
+            <td>2021/01/01</td>
+            <td><span class="cat-badge">ニュース</span></td>
+            <td>COATCHTECHがサービスを開始しました。</td>
+          </tr>
+          <tr>
+            <td>2021/01/01</td>
+            <td><span class="cat-badge">ニュース</span></td>
+            <td>COATCHTECHがサービスを開始しました。</td>
+          </tr>
+          <tr>
+            <td>2021/01/01</td>
+            <td><span class="cat-badge">ニュース</span></td>
+            <td>COATCHTECHがサービスを開始しました。</td>
+          </tr>
+        </table>
+        <div class="divider"></div>
       </div>
     </section>
 
-    <section class="about">
+    <section class="about pt-5 pb-5">
       <div class="w-container">
-        <p>About</p>
-        <h2>Technology<span>&times;</span>Coaching</h2>
-        <div class="left-box">
-          <p>株式会社estraはデジタル化が遅れている教育業界に最新のテクノロジーを導入する事によって教育のDXを実現します。</p>
-          <p>独自のオペレーションとコーチングを融合した新しい教育の仕組みにより、一人ひとりに合わせた最適な教育を提供します。</p>
-        </div>
-        <div class="right-box">
-          <img src="./img/about.jpg" alt="">
-        </div>
-      </div>
-    </section>
-
-    <section class="service">
-      <div class="w-container">
-        <p>service</p>
-        <h2>サービス内容</h2>
-        <div class="service-box">
-          <div class="left-box">
-            <h3>教育事業</h3>
-            <img src="./img/service__first.svg" alt="" class="servive-svg">
-            <p>サンプルテキストがここに入ります。サンプルテキストがここに入ります。サンプルテキストがここに入ります。</p>
+        <p class="title-en">About</p>
+        <h2 class="title mb-5">Technology<span class="times">&times;</span>Coaching</h2>
+        <div class="two-col-container">
+          <div class="left-container">
+            <p class="mb-2">株式会社estraはデジタル化が遅れている教育業界に最新のテクノロジーを導入する事によって教育のDXを実現します。</p>
+            <p>独自のオペレーションとコーチングを融合した新しい教育の仕組みにより、一人ひとりに合わせた最適な教育を提供します。</p>
           </div>
-          <div class="right-box">
-            <div class="upper-box">
-              <h3>教育事業</h3>
-              <img src="./img/service__first.svg" alt="" class="servive-svg">
-              <p>サンプルテキストがここに入ります。サンプルテキストがここに入ります。サンプルテキストがここに入ります。</p>
-            </div>
-            <div class="under-box">
-              <h3>教育事業</h3>
-              <img src="./img/service__first.svg" alt="" class="servive-svg">
-              <p>サンプルテキストがここに入ります。サンプルテキストがここに入ります。サンプルテキストがここに入ります。</p>
-            </div>
+          <div class="right-container">
+            <img src="./img/about.jpg" alt="">
           </div>
         </div>
       </div>
     </section>
 
-    <section class="blog">
+    <section class="service pt-5 pb-5">
       <div class="w-container">
-        <h2>ブログ</h2>
-        <p>blog</p>
-        <div class="card-area">
+        <p class="title-en mb-1">service</p>
+        <h2 class="title mb-2">サービス内容</h2>
+        <div class="service-container">
+          <div class="service-info-1">
+            <div class="servive-svg mb-2">
+              <img src="./img/service__first.svg" alt="">
+            </div>
+            <div class="service-container-text">
+              <h3 class="service-title mb-2">教育事業</h3>
+              <p class="service-desc">サンプルテキストがここに入ります。サンプルテキストがここに入ります。サンプルテキストがここに入ります。</p>
+            </div>
+          </div>
+          <div class="service-info-2 img-left">
+            <div class="servive-svg">
+              <img src="./img/service__first.svg" alt="">
+            </div>
+            <div class="service-container-text">
+              <h3 class="service-title mb-2">教育事業</h3>
+              <p class="service-desc">サンプルテキストがここに入ります。サンプルテキストがここに入ります。サンプルテキストがここに入ります。</p>
+            </div>
+          </div>
+          <div class="service-info-3 img-left">
+            <div class="servive-svg">
+              <img src="./img/service__first.svg" alt="">
+            </div>
+            <div class="service-container-text">
+              <h3 class="service-title mb-2">教育事業</h3>
+              <p class="service-desc">サンプルテキストがここに入ります。サンプルテキストがここに入ります。サンプルテキストがここに入ります。</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="blog pt-5 pb-5">
+      <div class="w-container">
+        <p class="title-en mb-1">Blog</p>
+        <h2 class="title mb-2">ブログ</h2>
+        <div class="card-container">
           <div class="card">
-            <div class="category">
-              <span>
-                ブログ
-              </span>
-            </div>
+            <span class="card-category">
+              Blog
+            </span>
             <div class="card-img">
               <img src="./img/blog__first.jpg" alt="">
             </div>
-            <div class="card-text">
-              プログラミング学習の勉強方法を特集。挫折しない秘訣とは？
+            <div class="card-body">
+              <p class="card-text">
+                プログラミング学習の勉強方法を特集。挫折しない秘訣とは？
+              </p>
+            </div>
+            <div class="card-footer">
+              <div class="card-footer-date">2021/01/01</div>
+              <div class="card-footer-tag">#COACHTECH</div>
+            </div>
+          </div>
+          <div class="card">
+            <span class="card-category">
+              Blog
+            </span>
+            <div class="card-img">
+              <img src="./img/blog__first.jpg" alt="">
+            </div>
+            <div class="card-body">
+              <p class="card-text">
+                プログラミング学習の勉強方法を特集。挫折しない秘訣とは？
+              </p>
+            </div>
+            <div class="card-footer">
+              <div class="card-footer-date">2021/01/01</div>
+              <div class="card-footer-tag">#COACHTECH</div>
+            </div>
+          </div>
+          <div class="card">
+            <span class="card-category">
+              Blog
+            </span>
+            <div class="card-img">
+              <img src="./img/blog__first.jpg" alt="">
+            </div>
+            <div class="card-body">
+              <p class="card-text">
+                プログラミング学習の勉強方法を特集。挫折しない秘訣とは？
+              </p>
             </div>
             <div class="card-footer">
               <div class="card-footer-date">2021/01/01</div>
@@ -132,62 +193,76 @@
             </div>
           </div>
         </div>
-        <button>一覧ページへ</button>
-      </div>
-    </section>
-
-    <section class="company">
-      <h2>会社概要</h2>
-      <table>
-        <tr>
-          <th>会社名</th>
-          <td>株式会社estra</td>
-        </tr>
-        <tr>
-          <th>代表者名</th>
-          <td>福場凛太郎</td>
-        </tr>
-        <tr>
-          <th>本社所在地</th>
-          <td>東京都渋谷区1-1-1</td>
-        </tr>
-        <tr>
-          <th>従業員</th>
-          <td>100名</td>
-        </tr>
-        <tr>
-          <th>電話番号</th>
-          <td>0120-000-0000</td>
-        </tr>
-        <tr>
-          <th>資本金</th>
-          <td><span>&yen;</span> 10,000,000</td>
-        </tr>
-      </table>
-    </section>
-
-    <section class="recruit-interview">
-      <div class="f-container">
-        <div class="left-box">
-          <h2>採用情報</h2>
-          <div><img src="./img/recruit.png" alt=""></div>
-        </div>
-        <div class="right-box">
-          <h2>社員インタビュー</h2>
-          <div><img src="./img/interview.png" alt=""></div>
+        <div class="btn-container mt-5">
+          <a class="btn blog-btn" href="#">一覧ページへ</a>
         </div>
       </div>
     </section>
 
-    <section class="contact">
-      <h2>株式会社estraへのお問い合わせはこちらから</h2>
-      <div>
-        |
+    <section class="company pt-5 pb-5">
+      <div class="company-container">
+        <p class="title-en mb-1">Compnay</p>
+        <h2 class="title mb-2">会社概要</h2>
+        <table class="company-table">
+          <tr>
+            <th>会社名</th>
+            <td>株式会社estra</td>
+          </tr>
+          <tr>
+            <th>代表者名</th>
+            <td>福場凛太郎</td>
+          </tr>
+          <tr>
+            <th>本社所在地</th>
+            <td>東京都渋谷区1-1-1</td>
+          </tr>
+          <tr>
+            <th>従業員</th>
+            <td>100名</td>
+          </tr>
+          <tr>
+            <th>電話番号</th>
+            <td>0120-000-0000</td>
+          </tr>
+          <tr>
+            <th>資本金</th>
+            <td><span>&yen;</span> 10,000,000</td>
+          </tr>
+        </table>
       </div>
-      <button>お問い合わせ</button>
+    </section>
+
+    <section class="recruit pt-5 pb-5">
+      <div class="recruit-container">
+        <a href="#" class="recruit-img">
+          <div class="recruit-text">
+            <h2 class="recruit-title">採用情報</h2>
+          </div>
+          <img src="./img/recruit.png" alt="">
+        </a>
+        <a href="#" class="interview-img">
+          <div class="interview-text">
+            <h2 class="interview-title">社員インタビュー</h2>
+          </div>
+          <img src="./img/interview.png" alt="">
+        </a>
+      </div>
+    </section>
+
+    <section class="contact pt-5 pb-5">
+      <div class="w-container">
+        <h2 class="title">株式会社estraへのお問い合わせはこちらから</h2>
+        <div class="pipe mt-2 mb-5">
+          |
+        </div>
+        <a class="btn contact-btn" href="#">
+          お問い合わせ
+        </a>
+      </div>
     </section>
   </main>
-  <footer class="footer">
+
+  <footer class="footer pt-2 pb-2">
     <small>Copyright <span>&copy;</span>estra, inc All Rights Reserved.</small>
   </footer>
 
