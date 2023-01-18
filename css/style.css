@@ -180,6 +180,14 @@ p.title-en {
   gap: 2rem;
 }
 
+.logo {
+  display: block;
+}
+
+.logo>img {
+  width: 25rem;
+}
+
 /* hero */
 .hero {
   position: relative;
@@ -187,7 +195,7 @@ p.title-en {
 
 .hero-container {
   position: absolute;
-  left: 10rem;
+  left: 20rem;
   top: 12rem;
 }
 
